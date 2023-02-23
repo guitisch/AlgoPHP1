@@ -1,9 +1,9 @@
 <?php
 
 Class Personne{
-    public $_nom;
-    public $_prenom;
-    public $_dateN;
+    private $_nom;
+    private $_prenom;
+    private $_dateN;
     public function __construct($nom, $prenom, $dateN){
         $this->_nom = $nom;
         $this->_prenom = $prenom;
